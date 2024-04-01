@@ -17,17 +17,11 @@ class A2HasTeen extends ConsoleProgram {
         intAgeThree = readInt("Enter the age of the third person: ");
 
         // Check whether values fulfill requirements and show results
-        if (13 <= intAgeOne || intAgeOne <= 19){
-            System.out.println("True");
-            if (13 <= intAgeTwo || intAgeThree <= 19){
-                System.out.println("True");
-                if (13 <= intAgeThree || intAgeThree <= 19){
+        if (13 <= intAgeOne && intAgeOne <= 19 || 13 <= intAgeTwo && intAgeTwo <= 19 || 13 <= intAgeThree && intAgeThree <= 19){
                     System.out.println("True");
-                }
-            }
-        }
-        else {
+                 }
+         else {
             System.out.println("False");
-        }
+         }
      }
 }
