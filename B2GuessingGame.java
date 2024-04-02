@@ -14,7 +14,7 @@ class B2GuessingGame extends ConsoleProgram{
         int intA = 0;
 
         // Set the secret number1
-        intSecretNum = myRandom.nextInt(1, 100);
+        intSecretNum = myRandom.nextInt(1, 101);
 
         // The 5 guesses and responses
         while (intGuess > intSecretNum || intGuess < intSecretNum) {

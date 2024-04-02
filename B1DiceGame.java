@@ -17,8 +17,8 @@ class B1DiceGame extends ConsoleProgram {
         Random myRandom = new Random();
         // Recreating 100 rolls
         for (int intI = 0; intI < 100; intI += 1){
-            intDieOne = myRandom.nextInt(1, 6);
-            intDieTwo = myRandom.nextInt(1, 6);
+            intDieOne = myRandom.nextInt(1, 7);
+            intDieTwo = myRandom.nextInt(1, 7);
             if (intDieOne + intDieTwo == 2){
                 System.out.println("Snake Eyes!");
             }
