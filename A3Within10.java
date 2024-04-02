@@ -34,7 +34,6 @@ class A3Within10 extends ConsoleProgram {
             else {
                 System.out.println("The number closer to 10 is " + intNumOne);
             }
-            
         }
      }
 }
